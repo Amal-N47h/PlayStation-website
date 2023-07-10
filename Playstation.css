@@ -1,0 +1,810 @@
+body{
+    margin: 0;
+    font-family: SST,sans-serif,helvetica,arial;
+}
+.header-fixed{
+    height: 65px;
+    width: 1280px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    margin-left: 25px;
+}
+.header-text ul li{
+    display: inline;
+    list-style: none;
+    padding-right: 3px;
+    cursor: pointer;
+}
+.header-text{
+    font-size: 13px;
+    color: #1f1f1f;
+}
+.header-sign{
+    width: 68px;
+    height: 20px;
+    background-color: #0070CC;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.header-text ul li:hover{
+    color: #0070CC;
+}
+.header-sign:hover{
+    background-color: #024c88;
+}
+.header-search{
+    cursor: pointer;
+}
+.header-right{
+    width: 720px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.head-pic{
+    width: 100%;
+    height: 720px;
+    background-image: url(Images/spider-man-2-hero-banner-desktop-01-en-31may23.jpeg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.head-pic-text1{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.head-pic-text2{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.head-pic-div{
+    width: 500px;
+    height: 600px;
+    padding-top: 340px;
+    margin-left: 170px;
+}
+.head-pic-buttons{
+    width: 127px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.head-pic-buttons:hover{
+    border: 2px solid white;
+}
+.head-pic-button{
+    width: 123px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-base-pics{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.head-base-pic1{
+    width: 188px;
+    height: 94px;
+    background-image: url(Images/spider-man-2-keyart-01-en-31may23.jpeg);
+    background-size: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head-base-pic2{
+    width: 188px;
+    height: 94px;
+    background-image: url(Images/final-fantasy-xvi-demo-keyart-01-en-05jun23.jpeg);
+    background-size: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head-base-pic3{
+    width: 188px;
+    height: 94px;
+    background-image: url(Images/synapse-keyart-01-en-21mar23.jpeg);
+    background-size: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head-base-pic4{
+    width: 188px;
+    height: 94px;
+    background-image: url(Images/crash-team-rumble-keyart-01-02mar23$en.jpeg);
+    background-size: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head-base-pic5{
+    width: 188px;
+    height: 94px;
+    background-image: url(Images/WZ2EKCC-homepage-banner-listing-thumb-01-de-07jun23.jpeg);
+    background-size: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head-base-pic:hover{
+    border: 3px solid #0070CC;
+}
+.centre-head{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.centre-head-left{
+    width: 30%;
+}
+.centre-head-right{
+    width: 40%;
+    margin-right: 50px;
+}
+.centre-head-text1{
+    font-size: 35px;
+    font-weight: 1;
+    letter-spacing: 1px;
+    line-height: 45px;
+    margin-bottom: 18px;
+}
+.centre-head-text2{
+    opacity: .7;
+    line-height: 29px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.centre-head-button{
+    height: 34px;
+    width: 106px;
+    background-color: #0070CC;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    letter-spacing: .3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.centre-head-buttons{
+    width: 110px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.centre-head-buttons:hover{
+    border: 2px solid #0070CC;
+    border-radius: 30px;
+}
+.centre-head-icons{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+.centre-head-icon-box{
+    width: 138px;
+    height: 165px;
+}
+.centre-head-icon1{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/playstation-5-horizontal-product-shot-01-ps5-en-23nov20.webp);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon2{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/dualsense-collection-image-block-01-en-01sep22.webp);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon3{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/3d-pulse-headset-range-image-block-03-en-13sep22.webp);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon4{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/DualSense-Edge-image-block-01-en-24aug22.webp);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon5{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/Media-Remote-square-image-block-ps5-01-en-09oct20.webp);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon6{
+    width: 138px;
+    height: 77px;
+    background-image: url(Images/hd-camera-square-image-block-ps5-01-en-07dec20.webp);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centre-head-icon-text{
+    font-weight: 0;
+    opacity: .7;
+    line-height: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.centre-head-icon-box:hover{
+    border: 2px solid #0070CC;
+    border-radius: 20px;
+}
+.centre-tab1{
+    height: 420px;
+    margin-top: 30px;
+    background-image: url(Images/ps-plus-monthly-games-banner-desktop-01-en-27may22.webp);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.centre-tab1-left-text{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    letter-spacing: .7px;
+    line-height: 30px;
+}
+.centre-tab1-left-button{
+    width: 192px;
+    height: 34px;
+    background-color: #0070CC;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.centre-tab1-left-buttons{
+    margin-top: 30px;
+    cursor: pointer;
+    width: 196px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.centre-tab1-left-buttons:hover{
+    border: 2px solid #0070CC;
+}
+.centre-tab2{
+    background-color: #26254f;
+    height: 710px;
+}
+.centre-tab2-head{
+    height: 535px;
+    background-image: url(Images/this-month-on-playstation-jun-homepage-background-desktop-01-en-26may23.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 200px;
+}
+.centre-tab2-heading{
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 80px;
+}
+.centre-tab2-heading1{
+    font-weight: bold;
+}
+.centre-tab2-base-icon1{
+    width: 251px;
+    height: 141px;
+    background-image: url(Images/best-looter-shooters-keyart-01-en-10may23.webp);
+    border-radius: 20px;
+    cursor: pointer;
+    background-size: 100%;
+}
+.centre-tab2-base{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.centre-tab2-base-icon2{
+    width: 251px;
+    height: 141px;
+    background-image: url(Images/20-unmissable-hidden-gems-ps-plus-keyart-01-29mar23$en.webp);
+    border-radius: 20px;
+    cursor: pointer;
+    background-size: 100%;
+}
+.centre-tab2-base-icon3{
+    width: 251px;
+    height: 141px;
+    background-image: url(Images/single-player-action-keyart-01-en-21oct22.webp);
+    border-radius: 20px;
+    background-size: 100%;
+    cursor: pointer;
+}
+.centre-tab2-head-text{
+    opacity: .7;
+    line-height: 29px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #e1dddd;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.centre-tab2-button{
+    width: 123px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 506;
+    font-size: 14px;
+    cursor: pointer;
+}
+.centre-tab2-buttons{
+    width: 127px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.centre-tab2-buttons:hover{
+    border: 2px solid white;
+}
+.centre-tab2-base-text{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 30px;
+    text-align: center;
+}
+.centre-tab2-base-box{
+    margin-top: -150px;
+}
+.centre-tab3{
+    height: 400px;
+    background-image: url(Images/god-of-war-ragnarok-hero-banner-desktop-02-en-07sep21.webp);
+    padding-left: 200px;
+    background-size: 150%;
+    padding-top: 310px;
+}
+.centre-tab3-heading{
+    color: #fff;
+    font-size: 37px;
+    letter-spacing: 1.7px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.centre-tab3-text{
+    margin-top: 20px;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 25px;
+}
+.centre-tab3-button{
+    width: 87px;
+    height: 34px;
+    border-radius: 30px;
+    background-color: rgb(214, 61, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centre-tab3-buttons{
+    width: 91px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.centre-tab3-buttons:hover{
+    border: 2px solid rgb(214, 61, 0);
+}
+.centre-tab4{
+    background-color: black;
+    height: 600px;
+}
+.centre-tab4-head-text1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 501;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+.centre-tab4-head-text2{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+.centre-tab4-head{
+    margin-left: 200px;
+}
+.centre-tab4-tab1-icon1{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/assassins-creed-mirage-store-artwork-01-en-19oct22.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-icon2{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/call-of-duty-modern-warfare-2-pack-01-ps4-ps5-en-26may22$en.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-icon3{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/diablo-iv-pack-01-en-12dec22.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-icon4{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/hogwarts-packshot-thumb-01-en-12jan21.jpg.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-icon5{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/horizon-forbidden-west-store-art-01-01apr21$en.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-icon6{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/gran-turismo-7-packshot-01-en-09sep21.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon1{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/marvels-spider-man-2-thumbnail-02-en-01oct21.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon2{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/rise-of-the-ronin-listing-thumb-en-28mar23.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon3{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/skull-and-bones-pack-01-ps4-ps5-08jul22$en.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon4{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/silent-hill-2-pack-01-en-14nov22.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon5{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/suicide-squad-KtJL-storeart-01-en-9dec21.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab2-icon6{
+    height: 114px;
+    width: 114px;
+    background-image: url(Images/helldivers-2-keyart-01-en-16may23.webp);
+    background-size: 100%;
+}
+.centre-tab4-tab1-text{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.centre-tab4-tab1, .centre-tab4-tab2{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.centre-tab5{
+    background-color: white;
+}
+.centre-tab5-heading{
+    margin-top: 70px;
+    padding-top: 60px;
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+}
+.centre-tab5-text, .centre-tab6-text{
+    opacity: .7;
+    margin-top: 20px;
+    line-height: 29px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.centre-tab6-text{
+    text-align: start;
+}
+.centre-tab6{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 30px;
+}
+.centre-tab6-button{
+    height: 34px;
+    width: 106px;
+    background-color: #0070CC;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    letter-spacing: .3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.centre-tab6-buttons{
+    width: 110px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.centre-tab6-buttons:hover{
+    border: 2px solid #0070CC;
+    border-radius: 30px;
+}
+.centre-tab6-left-icon{
+    width: 256px;
+    height: 144px;
+    background-image: url(Images/ps4-slim-homepage-image-block-04-en-09oct20.webp);
+    background-size: 100%;
+}
+.centre-tab6-mid-icon{
+    width: 256px;
+    height: 144px;
+    background-image: url(Images/double11-202010-tw-psvr.webp);
+    background-size: 100%;
+}
+.centre-tab6-right-icon{
+    width: 256px;
+    height: 144px;
+    background-image: url(Images/dualshock-4-listing-thumb-01-ps4-en-12oct20.webp);
+    background-size: 100%;
+}
+.centre-tab6-col{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.centre-tab6-heading{
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+}
+.centre-tab5-quote{
+    font-size: 15px;
+    vertical-align: super;
+}
+.centre-tab7-right{
+    width: 591px;
+    height: 333px;
+    border-radius: 10px;
+    box-shadow: inset;
+    background-image: url(Images/essential-picks-image-block-01-26jun23$en.webp);
+    background-size: 100%;
+}
+.centre-tab7-left-heading{
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 15px;
+    letter-spacing: 1.2px;
+}
+.centre-tab7-left-text{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 15px;
+    line-height: 25px;
+}
+.centre-tab7-left-button{
+    width: 112px;
+    margin-top: 40px;
+    height: 34px;
+    border-radius: 30px;
+    background-color: rgb(214, 61, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.centre-tab7-left-buttons{
+    width: 116px;
+    height: 38px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centre-tab7-left-buttons:hover{
+    border: 2px solid rgb(214, 61, 0);
+}
+.centre-tab7{
+    display: flex;
+    gap: 60px;
+    margin-top: 200px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.centre-tab8{
+    background-color: #f5f3f3;
+}
+.centre-tab8-heading{
+    font-size: 33px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 70px;
+}
+.centre-tab8-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.footer-list ul li{
+    list-style: none;
+    margin-left: -40px;
+    color: #fff;
+    font-weight: 1;
+    font-size: 12.7px;
+    letter-spacing: .5px;
+    line-height: 26px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #00439c;
+    margin-top: 1700px;
+}
+.foot-head{
+    width: 1196px;
+    height: 80px;
+    border-bottom: 0.5px solid rgb(177, 175, 175);
+    margin: 0 auto;
+}
+.foot-mid1{
+    width: 1196px;
+    height: 206px;
+    border-bottom: 0.5px solid rgb(177, 175, 175);
+    margin: 0 auto;
+}
+.footer-lists{
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+}
+.foooter-list-icons{
+    display: flex;
+}
+.footer-list-heading{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}.foot-head-img{
+    padding-top: 20px;
+}
+.foot-mid2-base{
+    font-size: 12px;
+    color: white;
+    letter-spacing: .5px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+.foot-mid2-base a{
+    color: white;
+}
+.foot-mid2{
+    width: 1196px;
+    height: 130px;
+    border-bottom: 0.5px solid rgb(177, 175, 175);
+    margin: 0 auto;
+}
+.foot-mid2-head{
+    color: rgb(255, 255, 255);
+    letter-spacing: .5px;
+    padding-top: 20px;
+}
+.foot-base{
+    width: 1196px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.foot-base-right{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: end;
+    margin-top: -25px;
+}
+.foot-base-left{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+}
+.foot-base-left-india{
+    padding-top: 7px;
+}
